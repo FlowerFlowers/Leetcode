@@ -1,3 +1,7 @@
+'''
+合并两个排列好的数组
+思路：从长数组的尾部开始更新，保证无风险
+'''
 class Solution:
     def merge(self, nums1, m, nums2, n):
         """
