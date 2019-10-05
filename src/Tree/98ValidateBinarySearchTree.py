@@ -42,9 +42,7 @@ class Solution:
     def helper(self, node, lower_bound, upper_bound):
         if not node:
             return True
-        if node.val >= upper_bound:
-            return False
-        if node.val <= lower_bound:
+        if node.val >= upper_bound or node.val <= lower_bound:
             return False
         left = self.helper(node.left, lower_bound, node.val)
         right = self.helper(node.right, node.val, upper_bound)
