@@ -33,7 +33,7 @@ class TreeNode:
 #         res = []
 #         if not root:
 #             return res
-#         #stack 用来存放之前的节点
+#         #StackAndQueue 用来存放之前的节点
 #         level = [root]
 #         while level:
 #             res.append(level[-1].val)

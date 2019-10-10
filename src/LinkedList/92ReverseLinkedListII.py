@@ -1,5 +1,9 @@
 '''
 leetcode编号：92
+逆转链表第m----n个节点
+思路：
+存储好断开位置，中间逆转
+主意：因为可能从第一个节点开始逆转，所以多加一个头节点会好处理的多
 '''
 # Definition for singly-linked list.
 class ListNode:

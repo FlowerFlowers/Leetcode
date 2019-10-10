@@ -23,15 +23,15 @@ class ListNode:
 # class Solution:
 #     def reverseList(self, head: ListNode) -> ListNode:
 #         node = head
-#         stack = []
+#         StackAndQueue = []
 #         if node is None:
 #             return None
 #         while node.next:
-#             stack.append(node)
+#             StackAndQueue.append(node)
 #             node = node.next
 #         revers_head = node
-#         while stack:
-#             temp_node = stack.pop(-1)
+#         while StackAndQueue:
+#             temp_node = StackAndQueue.pop(-1)
 #             node.next = temp_node
 #             temp_node.next = None
 #             node = temp_node

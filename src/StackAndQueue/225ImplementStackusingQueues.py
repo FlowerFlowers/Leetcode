@@ -13,7 +13,7 @@ class MyStack:
 
     def push(self, x: int) -> None:
         """
-        Push element x onto stack.
+        Push element x onto StackAndQueue.
         """
         if self.que1 != []:
             self.que1.append(x)
@@ -24,7 +24,7 @@ class MyStack:
 
     def pop(self) -> int:
         """
-        Removes the element on top of the stack and returns that element.
+        Removes the element on top of the StackAndQueue and returns that element.
         """
         if self.que1 != []:
             while len(self.que1) > 1:
@@ -55,6 +55,6 @@ class MyStack:
 
     def empty(self) -> bool:
         """
-        Returns whether the stack is empty.
+        Returns whether the StackAndQueue is empty.
         """
         return (not self.que1) and (not self.que2)
